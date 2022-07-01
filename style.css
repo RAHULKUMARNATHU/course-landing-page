@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Bebas+Neue&family=IBM+Plex+Mono:ital@1&family=Splash&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@600&family=Arima:wght@500&family=Bebas+Neue&family=IBM+Plex+Mono:ital@1&family=Splash&family=The+Nautigal:wght@700&display=swap');
+
+
 @font-face {
   font-family: priori-sans;
   src: url(../Priori_Sans_Regular.ttf);
@@ -9,12 +13,33 @@ body {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
-  background: linear-gradient(to right, #e100ff, #7f00ff);
+  background-image : url("./images/AIML.jpg");
+  /* background: linear-gradient(to right, #e100ff, #7f00ff); */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-size: cover;
+  /* background-position:initial; */
+
+
+
+
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-brand {
-  float: left;
-  margin: 5px 20px;
+  
+  /* margin:  2vh 2vw; */
   height: 50%;
   width: 150px;
   padding: 15px 15px;
@@ -23,9 +48,304 @@ body {
   background-color: aliceblue;
 }
 
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 10px;
+}
+
 img {
   display: block;
   margin-left: auto;
   max-width: 100%;
   max-height: 100%;
 }
+
+
+footer {
+  min-height: 50vh;
+  border-top: 2px solid #222;
+  background-image: linear-gradient(to right, #0098d6 0%, #00cbd6 100%);
+  position: relative;
+  top: 295px;
+  
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer .container {
+  position: relative;
+  z-index: 20;
+  margin-top: 20px;
+  color: whitesmoke;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+} */
+
+footer .footer-col.one {
+  text-align: left;
+
+}
+
+
+
+footer .footer-col.one img {
+    width: 200px;
+    margin-bottom: 0.5rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    margin: 1rem 0;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+footer .container .img-fluid {
+  width: 220px;
+  height: 60.86px;
+}
+
+.img-fluid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+footer .footer-col.one div i {
+  margin: 0 0.5rem;
+  width: 25px;
+  margin-top: 5px !important;
+}
+
+
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fas {
+  font-weight: 900;
+}
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+
+footer .footer-col.one p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+footer .footer-col.one div {
+  display: flex;
+  align-items: flex-start;
+  margin: 0.8rem 0;
+}
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.footer-col.two h3 {
+  border-bottom: 1px inset;
+  position: relative;
+  padding: 1rem 0.5rem;
+  font-size: 25px;
+}
+
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+
+
+footer .footer-col.two p {
+  margin: 0;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+
+
+
+
+
+
+
+
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+
+
+
+ p {
+  font-size:14px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+footer .footer-col.three h3, footer .footer-col.two h3 {
+  border-bottom: 1px inset;
+  position: relative;
+  padding: 1rem 0.5rem;
+  font-size: 25px;
+}
+
+footer .footer-col.three input {
+  width: 80%;
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 40px 0.5rem 1rem;
+  font-size: 14px;
+  margin: 1rem 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+.mt-5, .my-5 {
+  margin-top: 3rem!important;
+}
+
+.social a {
+  color: inherit;
+  font-size: 10px;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+input[type="submit" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+
+#greet{
+
+  font-size: 30px;
+  color: azure;
+  font-family: 'Arima', cursive;
+  margin-left: 10%;
+
+}
+
+h2{
+  font-family: 'Anek Malayalam', sans-serif;
+  color: aliceblue;
+  margin-left: 12%;
+}
+ 
+
+
+ #mentor{
+  font-size: 20px;
+  color:aquamarine;
+  margin-left:20vw ;
+ }
+
+ #duration{
+  font-size: 20px;
+  color:antiquewhite;
+  margin-left:20vw ;
+ }
+
+
