@@ -1,6 +1,6 @@
 # course-landing-page
 
 ## Technologies Used :-
-### HTML <br>
+### HTML </br>
 ###CSS
-###otstrap
+###bootstrap
