@@ -2,5 +2,5 @@
 
 ## Technologies Used :-
 ### HTML </br>
-###CSS
-###bootstrap
+### CSS </br>
+### bootstrap </br>
