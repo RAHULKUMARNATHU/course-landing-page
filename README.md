@@ -1,11 +1,21 @@
 # course-landing-page
+## Description
+A greate web page with Responsive and attractive Page . This is Basically a type of Home page 
+where user can interact to website.
+
 
 ## Technologies Used :-
-### HTML </br>
-### CSS </br>
-### bootstrap </br>
+* HTML is used for framework Design </br>
+### CSS is used here for making this page to be attractive </br>
+### bootstrap for responsive page</br>
 
-
+# How to Setup the project On local system
+  1. Clone the project 
+  2. Navigate to Project Directory by : Using
+  ``` 
+  cd  course-landing-page 
+  ```
+  After reaching to the this preoject directory you have to run index.html
 # Screenshots
 
 ## Logo
