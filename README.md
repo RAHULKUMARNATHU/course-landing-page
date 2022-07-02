@@ -1,4 +1,5 @@
 # course-landing-page
+
 ## Description
 A greate web page with Responsive and attractive Page . This is Basically a type of Home page 
 where user can interact to website.
@@ -6,8 +7,8 @@ where user can interact to website.
 
 ## Technologies Used :-
 * HTML is used for framework Design </br>
-### CSS is used here for making this page to be attractive </br>
-### bootstrap for responsive page</br>
+* CSS is used here for making this page to be attractive </br>
+* bootstrap for responsive page</br>
 
 # How to Setup the project On local system
   1. Clone the project 
@@ -15,7 +16,8 @@ where user can interact to website.
   ``` 
   cd  course-landing-page 
   ```
-  After reaching to the this preoject directory you have to run index.html
+  After reaching to the this preoject directory you have to run ``` index.html```
+
 # Screenshots
 
 ## Logo
@@ -33,4 +35,10 @@ where user can interact to website.
 
 ### Responsive View
 ![Screenshot (128)](https://user-images.githubusercontent.com/58096367/176958801-9d5a17c1-d3a9-48b5-bc5d-19eba0d5f956.png)
+
+## Directory Structure
+  * ```/index.html``` All html code (Entry file)
+  * ```/style.css``` All Css code
+  * ```/images``` All images 
+
 
